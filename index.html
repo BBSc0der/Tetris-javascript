@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>T E T R I S</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <script src="js/tetris.js" type="text/javascript"></script>
+        <link href='https://fonts.googleapis.com/css?family=Orbitron:700' rel='stylesheet' type='text/css'>
+    </head>
+    <body onload="main()">
+        <div id="wrapper">
+            <div id ="left">
+                <canvas id="canva" width="300" height="600">
+                    Twoja przeglądarka nie wspiera elementu canvas!
+                    Pobierz Internet Explorer 9 lub nowszą wersję! 
+                </canvas>
+            </div>
+            <div id="right">
+                <div id="logo">
+                    <h1>GALACTIC<br />TETRIS</h1>
+                </div>
+                <div id="screen">
+                    <canvas id="canvSrc" width="120" height="120">
+                        
+                    </canvas>
+                </div>
+                <div id="outputs">
+                    <p id="score">Score 0</p>
+                    <p id="level">Level: 1</p>
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

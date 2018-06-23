@@ -1,0 +1,44 @@
+canvas{
+    background-image: url("../img/background.png");
+}
+#left{
+    float: left;
+    border: white solid 1px;
+}
+#right{
+    float: left;
+    width: 300px;
+    height: 600px;
+    color: white;
+    text-align: center;
+    
+}
+#canvSrc{
+    border: white solid 1px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+#screen{
+    width: 100%;
+}
+#logo{
+    
+    
+}
+#wrapper{
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    border: white solid 1px;
+    height: 606px;
+    width: 606px;
+    margin-right: auto;
+    margin-left: auto;
+}
+body{
+    background-image: url("../img/site-background.png");
+    font-family: 'Orbitron', sans-serif;
+}
+#outputs{
+    font-size: 23px;
+}
